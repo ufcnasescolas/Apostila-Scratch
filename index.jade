@@ -1,0 +1,16 @@
+//output:index.html, pretty:true
+extends base.jade
+block topo
+  include jade_componentes/nav_index.jade
+
+block conteudo
+  div.section.no-pad-bot#index-banner
+    div.container
+      h1.header.center.orange-text Proramação nas Escolas
+      div.row.center
+        h5.header.col.s12.light Um projeto de extensão da Universidade Federal do Ceará - Campus Quixadá
+  
+  div.container
+    div.section
+      div.row
+        include jade_componentes/card_sobre_nos.jade

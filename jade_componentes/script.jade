@@ -1,0 +1,36 @@
+script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+script(src="js/materialize.js")
+script(type="text/javascript").
+  $(document).ready(function(){
+    //Inicialização dos elementos no JS
+    //Parallax BG
+    $('.parallax').parallax();
+    
+    //sideNav
+    $(".button-collapse").sideNav();
+    
+    //Tooltips
+    $('.tooltipped').tooltip({delay: 50});
+    
+    //select_initializer
+    $('select').material_select();
+    
+    //Dropdown
+    $('.dropdown-button').dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrain_width: false, // Does not change width of dropdown to that of the activator
+        hover: true, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: false, // Displays dropdown below the button
+        alignment: 'left' // Displays dropdown with edge aligned to the left of button
+      }
+    );
+    
+    //collapsible
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+  
+        
+  });

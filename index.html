@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Templos - Gestão de Igrejas Evangélicas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- CSS-->
+    <link media="screen,projection" rel="stylesheet" href="css/materialize.min.css">
+    <link media="screen,projection" rel="stylesheet" href="css/font-awesome.min.css">
+    <link media="screen,projection" rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav role="navigation" class="blue darken-1">
+        <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo"><img src="imgs/logo-white.png" alt="PREX" width="100px"></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="apostila_scratch.html"><i aria-hidden="true" class="fa fa-book"> Apostila Scratch</i></a></li>
+          </ul>
+          <ul id="nav-mobile" class="side-nav">
+            <li></li><a href="home.html"><i aria-hidden="true" class="fa fa-book"> Apostila Scratch</i></a>
+          </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+    <div class="container page"><br>
+      <div id="index-banner" class="section no-pad-bot">
+        <div class="container">
+          <h1 class="header center orange-text">Proramação nas Escolas</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">Um projeto de extensão da Universidade Federal do Ceará - Campus Quixadá</h5>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12">
+              <div class="icon-block">
+                <h2 class="center blue-text"><i aria-hidden="true" class="fa fa-university"></i></h2>
+                <h5 class="center blue-text">Sobre Nós</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula malesuada sodales. Aenean suscipit fermentum orci, eget vestibulum erat condimentum quis. Suspendisse lorem diam, vehicula sit amet sagittis vel, vehicula sed velit.</p>
+                <p>Phasellus iaculis metus mauris. Phasellus euismod ultrices tellus eget faucibus. Ut eget diam scelerisque, consequat risus et, pretium mauris. Morbi lobortis leo vitae felis tincidunt, non molestie sem rutrum. Ut sed bibendum ligula. Quisque congue ex nec ornare malesuada. Nunc cursus, mauris a maximus viverra, lorem nisl faucibus quam, id faucibus metus nisi lacinia nibh. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer blue darken-1">
+      <div class="container white-text">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5>Programação nas Escolas</h5>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula malesuada sodales. Aenean suscipit fermentum orci, eget vestibulum erat condimentum quis. Suspendisse lorem diam, vehicula sit amet sagittis vel, vehicula sed velit.</p>
+          </div>
+          <div class="col l6 s12">
+            <h5>Contato</h5>
+            <ul>
+              <li>Endereço: Rua X, 16</li>
+              <li>CEP: 63900-000</li>
+              <li>Telefone: (88) 12345-6789</li>
+              <li>Email: programacaonasescolas.quixada@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p>@ Criado por Françoes da Silva Pereira</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //Inicialização dos elementos no JS
+        //Parallax BG
+        $('.parallax').parallax();
+        
+        //sideNav
+        $(".button-collapse").sideNav();
+        
+        //Tooltips
+        $('.tooltipped').tooltip({delay: 50});
+        
+        //select_initializer
+        $('select').material_select();
+        
+      });
+    </script>
+  </body>
+</html>
