@@ -12,3 +12,64 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+blockquote {
+  border-left: 5px solid #1e88e5;
+}
+
+.fsp_header{
+  font-size: 6.0em;
+  font-weight: 200;
+}
+
+.fsp_h4{
+  font-weight: 350;
+  margin-bottom: 4%;
+  line-height: 2.5rem;
+  color: #1E88E5 !important;
+}
+
+.fsp_social_logo{
+  font-size: 0.65em;
+}
+
+.footer-copyright{
+  padding-bottom: 2.0em;
+}
+
+nav ul a {
+    font-size: 1.2rem;
+    color: #FFF;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+
+
+.card-avatar .waves-effect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-avatar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.card-avatar .card-content {
+    text-align: center;
+}
+
+.card .card-content p {
+    margin: 15px 0px;
+}
+
+.card-avatar .card-content i {
+   font-size: 1.5rem;
+}
+
+.card-avatar .card-content .card-title {
+    line-height: 30px !important;
+}
